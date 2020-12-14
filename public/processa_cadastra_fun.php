@@ -32,6 +32,8 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN'])
       showAlertSucess('Funcionario Cadastrado!', 'cadastra_funcionario.php');
     </script>";
   }
+  
+  $connection->close();
 }
 else
 {

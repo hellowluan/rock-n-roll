@@ -21,6 +21,7 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN'])
     showAlertSucess('Funcionario Alterado!', 'altera_funcionario.php?id=$id');
   </script>";
 
+  $connection->close();
 }
 else
 {

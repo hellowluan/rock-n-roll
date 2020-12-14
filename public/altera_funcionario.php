@@ -48,6 +48,8 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN'])
       <button type="submit" class="cadastrar">Salvar Alterações</button>
     </form>
     <?php
+
+    $connection->close();
   }
   else 
   {

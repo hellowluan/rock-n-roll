@@ -45,6 +45,8 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN'])
       <label for="vendedor">Vendedor</label>
     </form>
     <?php
+
+    $connection->close();
   }
   else 
   {

@@ -37,6 +37,8 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN']))
       <img src="img/amplificadores/<?php echo $data['FOTO_AMP'] ?>" width="300px" alt="Amplificador">
     </form>
     <?php
+
+    $connection->close();
   }
   else
   {

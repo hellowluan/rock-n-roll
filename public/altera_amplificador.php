@@ -44,6 +44,8 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN'])
     </form>
     
     <?php
+
+    $connection->close();
   }
   else
   {

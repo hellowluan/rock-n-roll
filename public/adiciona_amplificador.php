@@ -20,6 +20,8 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN'])
     echo "<script>
       showAlertSucess('Produto Adicionado!', 'vendas.php');
     </script>";
+
+    $connection->close();
   }
 }
 

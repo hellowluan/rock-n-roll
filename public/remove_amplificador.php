@@ -20,6 +20,8 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN'])
       showAlertSucess('Produto Removido!', 'ver_fila_compras.php');
     </script>";
   }
+      
+  $connection->close();
 }
 
 require "templates/footer.php"; 

@@ -40,6 +40,7 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN'])
     </script>;
   ";
 
+  $connection->close();
 }
 else
 {

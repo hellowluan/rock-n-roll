@@ -61,6 +61,7 @@ if(isset($_SESSION['LOGIN_FUN']) == 0)
           </script>";
     }
     
+    $connection->close();
   }
 } 
 else
