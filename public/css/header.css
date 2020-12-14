@@ -1,0 +1,55 @@
+.header {
+  background-color: #fff498;
+}
+
+.header .nav .rocknroll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.header .nav .rocknroll > .logotipo {
+  width: 256px;
+}
+
+.header .nav .rocknroll > .exit {
+  font-size: 18px;
+}
+
+.header .nav .rocknroll > .exit .welcome {
+  margin-right: 15px;
+}
+
+.header .nav .rocknroll > .exit .logout {
+  font-weight: bold;
+  text-decoration: none;
+  transition: 500ms;
+  cursor: pointer;
+  padding-left: 15px;
+  
+  color: #252525;
+}
+
+.header .nav .rocknroll > .exit .logout:hover {
+  color: #ff3f3f;
+}
+
+.header .background {
+  background-color: #fdf4b8;
+}
+
+.header .options {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0;
+}
+
+.header .options .option {
+  margin: 0;
+}
+
+.header .options .option:hover {
+  font-weight: bold;
+  color: #151515;
+}

@@ -1,0 +1,94 @@
+.title, .total {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+.total {
+  text-align: right;
+}
+
+.recibo {
+  text-align: right;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+#customers {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px auto;
+}
+
+#customers td, #customers th {
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+#customers td .exibe {
+  color: black;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3CDC8C;
+  color: white;
+}
+
+.alter, .remove {
+  font-size: 16px;
+  border: none;
+  padding: 8px 0px;
+  transition: 300ms;
+}
+
+.alter:hover {
+  cursor: pointer;
+  color: #3CDC8C; 
+  /* font-weight: bold; */
+}
+
+.remove:hover {
+  font-weight: bold;
+  cursor: pointer;
+  color: #dc3c3c; 
+  /* font-weight: bold; */
+}
+
+.finalizar {
+  border: none;
+  background: #abdac3;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  float: right;
+  transition: 300ms;
+}
+
+.finalizar:hover {
+  cursor: pointer;
+  background: #3CDC8C; 
+  /* font-weight: bold; */
+}
+
+.voltar {
+  margin-top: 25px;
+  text-align: right;
+}
+
+.voltar a:hover {
+  color: #3CDC8C;
+}

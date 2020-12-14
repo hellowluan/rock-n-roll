@@ -1,0 +1,42 @@
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description .text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.description .button {
+  padding: 15px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+
+  color: #fff;
+  background: #abdac3;
+}
+
+.description .button:hover {
+  cursor: pointer;
+  background-color: #3CDC8C;
+}
+
+.cadastra-funcionario {
+  width: 500px;
+}
+
+.cadastra-funcionario .form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.cadastra-funcionario .form-input input {
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #757575;
+  padding: 5px;
+  margin-bottom: 5px;
+}

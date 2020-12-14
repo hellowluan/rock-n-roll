@@ -1,0 +1,45 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  background-color: #FFFFFF;
+}
+
+.footer .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .content .etb {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .content .etb img {
+  width: 128px;
+  height: 48px;
+}
+
+.footer .content .etb span {
+  color: #727D96;
+}
+
+.footer .content .madeby p, a {
+  text-decoration: none;
+  transition: 500ms;
+
+  color: #727D96;
+}
+
+.footer .content .madeby  a:hover {
+  font-weight: bold;
+
+  color: #3CDC8C;
+}

@@ -1,0 +1,38 @@
+.header {
+  background-color: #fff498;
+}
+
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.header .nav > .logotipo {
+  width: 256px;
+}
+
+.header .nav > .exit {
+  font-size: 18px;
+}
+
+.header .nav > .exit .welcome {
+  margin-right: 15px;
+}
+
+.header .nav > .exit .logout {
+  font-weight: bold;
+  text-decoration: none;
+  transition: 500ms;
+  cursor: pointer;
+  padding-left: 15px;
+  
+  color: #252525;
+}
+
+.header .nav > .exit .logout:hover {
+  color: #ff3f3f;
+}
+

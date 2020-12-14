@@ -1,0 +1,108 @@
+.cadastra-funcionario {
+  width: 500px;
+  margin: 15px auto;
+}
+
+b {
+  font-weight: bolder;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=file] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.cadastrar {
+  background-color: #3CDC8C;
+  color: white;
+  padding: 16px 20px;
+  margin: 25px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.5;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.cadastrar:hover {
+  opacity: 1;
+}
+
+/* Status checkbox*/
+.status {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.status input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #3CDC8C;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #3CDC8C;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

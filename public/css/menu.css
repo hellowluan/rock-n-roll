@@ -1,0 +1,23 @@
+.section {
+  height: 79vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section .menu {
+  font-size: 32px;
+  text-align: center;
+}
+
+.section .option {
+  margin: 25px;
+}
+
+.section .option a:hover {
+  font-weight: bold;
+
+  color: #151515;
+}
