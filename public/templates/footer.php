@@ -2,7 +2,6 @@
     <!-- end content of page -->
   </section>
 
-  <script src="js/alert.js"></script>
   <footer class="footer">
     <div class="content container">
       <div class="etb">
