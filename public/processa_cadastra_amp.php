@@ -21,32 +21,16 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN'])
     
     echo "<script>
       showAlert('success','Amplicador Cadastrado!', 'Deseja cadastar mais um amplificador?', 'Sim', 'Não', 'cadastra_amplificador.php', 'lista_amplificadores.php');
-    </script>
-    ";
+    </script>";
 
     $connection->close();
   }
   else
   {
     require "templates/not_found.php";
+    
     echo "<script>
-    function showAlertError() {
-      Swal.fire({
-        title: 'Erro ao Cadastar!',
-        text: 'Ocorreu um erro ao upar a imagem.',
-        icon: 'error',
-        confirmButtonText: 'OK'
-      }).then((result) => {
-        if (result.isConfirmed) {
-          location.href = ('cadastra_funcionario.php');
-        } else {
-          location.href = ('cadastra_funcionario.php');
-        }
-      });
-    }
-
-    showAlertError();
-
+      showAlertError('Erro ao Cadastar!', 'Ocorreu um erro ao upar a imagem.', 'cadastra_funcionario.php');
     </script>";
 
   }

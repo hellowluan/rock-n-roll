@@ -5,6 +5,7 @@
   <meta name="viewport" content="wCOD_FUNth=device-wCOD_FUNth, initial-scale=1.0">
 
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="js/alert.js"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=
     Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -46,19 +47,8 @@ if(isset($_SESSION['LOGIN_FUN']) == 0)
     else
     {
       echo "<script>
-              Swal.fire({
-                title: 'Acesso Negado!',
-                text: 'Usuario ou Senha invalido.',
-                icon: 'error',
-                confirmButtonText: 'Tentar Novamente'
-              }).then((result) => {
-                if (result.isConfirmed) {
-                  location.href = ('login.php');
-                } else {
-                  location.href = ('login.php');
-                }
-              });            
-          </script>";
+        showAlertError('Acesso Negado!', 'Usuario ou Senha invalido.', 'login.php');
+      </script>";
     }
     
     $connection->close();

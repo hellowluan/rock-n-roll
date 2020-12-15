@@ -34,11 +34,9 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN'])
   $sql = "UPDATE amplificadores SET MARCA_AMP = '$marca', MODELO_AMP = '$modelo', TIPO_AMP = '$tipo', PRECO_AMP = '$preco' WHERE COD_AMP = '$id'";
   $sql = $connection->query($sql);
   
-  echo "
-    <script> 
-      showAlertSucess('Amplicador Alterado', 'altera_amplificador.php?id=$id', 'lista_amplificadores.php');
-    </script>;
-  ";
+  echo "<script> 
+    showAlertSucess('Amplicador Alterado', 'altera_amplificador.php?id=$id', 'lista_amplificadores.php');
+  </script>;";
 
   $connection->close();
 }
