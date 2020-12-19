@@ -21,7 +21,7 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN'])
               <a href="rel_estoque.php">Relatorio de Amplificadores em estoque</a>
             </li>
             <li class="option">
-              <a href="rel_total_vendas.php">Faturamento Total do Mes</a>
+              <a href="rel_total_vendas.php">Faturamento Total</a>
             </li>
           </ul>
         </div>

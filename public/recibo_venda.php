@@ -68,7 +68,7 @@ if (isset($_SESSION['LOGIN_FUN']) && !empty($_SESSION['LOGIN_FUN'])
   }
   
   echo "</table>";
-  echo "<h2 class=\"recibo\">Venda Nº: <b>12</b>";
+  echo "<h2 class=\"recibo\">Venda Nº: <b>$vendas_cod_ven</b>";
   echo "<h2 class=\"recibo\">Data: <b>$data_venda</b></h2>";
   echo "<h1 class=\"total\">Total: R$ $total </h1>";
   echo "<p class=\"voltar\"><a href=\"vendas.php\">Fechar Recibo</a></p>";
